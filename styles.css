@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+header {
+    width: 100%;
+    height: 56px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+    flex: 1;
+    line-height: 56px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+main {
+    padding-bottom: 50px;
+}
+
+.content {
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#content1{
+    padding: 0;
+}
+#content2{
+    margin-top: 20px;
+}
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 80px
+}
+
+.image-item {
+    flex: 1;
+    margin: 0 50px;
+}
+
+.image-item img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.image-caption {
+    text-align: center;
+    margin-top: 5px;
+}
