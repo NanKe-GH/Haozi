@@ -77,3 +77,30 @@ footer {
     text-align: center;
     margin-top: 5px;
 }
+/* Add these media queries to your styles.css */
+
+/* For screens up to 768px wide */
+@media (max-width: 768px) {
+    .menu-button {
+        font-size: 14px; /* Adjust button font size */
+    }
+
+    .image-grid {
+        display: block; /* Change image grid to block layout */
+    }
+
+    .image-item {
+        margin: 10px 0; /* Adjust image item margin */
+    }
+}
+
+/* For screens up to 480px wide */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px; /* Adjust default font size */
+    }
+
+    .menu-button {
+        font-size: 12px; /* Further adjust button font size */
+    }
+}
